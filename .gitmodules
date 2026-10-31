@@ -1,0 +1,18 @@
+[submodule "AgentTune"]
+	path = AgentTune
+	url = https://github.com/Lexsi-Labs/AgentTune.git
+[submodule "SafeTune"]
+	path = SafeTune
+	url = https://github.com/ManasResearchAI/SafeTune.git
+[submodule "CuratorKIT"]
+	path = CuratorKIT
+	url = https://github.com/ManasResearchAI/CuratorKIT.git
+[submodule "CircuitKIT"]
+	path = CircuitKIT
+	url = https://github.com/ManasResearchAI/CircuitKIT.git
+[submodule "AuditKIT"]
+	path = AuditKIT
+	url = https://github.com/ManasResearchAI/AuditKIT.git
+[submodule "aligntune"]
+	path = aligntune
+	url = https://github.com/ManasResearchAI/aligntune.git
