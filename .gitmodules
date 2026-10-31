@@ -1,6 +1,6 @@
 [submodule "AgentTune"]
 	path = AgentTune
-	url = https://github.com/Lexsi-Labs/AgentTune.git
+	url = https://github.com/ManasResearchAI/AgentTune.git
 [submodule "SafeTune"]
 	path = SafeTune
 	url = https://github.com/ManasResearchAI/SafeTune.git
