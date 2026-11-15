@@ -1,0 +1,51 @@
+{
+  "schema": "multilingual-ticketing.publish-file-manifest/1",
+  "package": "multilingual-ticket-triage-redteam",
+  "package_type": "dataset",
+  "file_count": 8,
+  "payload_bytes": 87244001,
+  "forbidden_model_files_present": [],
+  "model_allowlist_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 714,
+      "sha256": "e4c8560d24214fc72bc06ba5d2bbb72d8206060740bda402511247057a34516f"
+    },
+    {
+      "path": "data/a4_cost_test.jsonl",
+      "bytes": 931864,
+      "sha256": "1c532e90d13e7091ff2edd939347b6dbca29c9cda2b263a7287826a9fe771615"
+    },
+    {
+      "path": "data/clean_plus_adversarial_train.jsonl",
+      "bytes": 76719332,
+      "sha256": "21ca143324777125311acb9d35d1b87f79be7f55beeb573b177969cb7f3e79f2"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 1396,
+      "sha256": "88ca8293cf72d53193db08c4eced6742f65855a70df67145a87f3ebe42808cf2"
+    },
+    {
+      "path": "data/matched_clean.jsonl",
+      "bytes": 108244,
+      "sha256": "960fcb5b21e8a85c527ee51bd56fa82055b8c47632b882c63a8c5516a8d22872"
+    },
+    {
+      "path": "data/matched_clean.manifest.json",
+      "bytes": 299,
+      "sha256": "39f9f0fdce29d47336de1b781260e2ace1db7eab5e519e8946baaaff3c3a538e"
+    },
+    {
+      "path": "data/test.jsonl",
+      "bytes": 5860400,
+      "sha256": "6b391904a6851ec058268cb9355470df7dc46bf5cdad2af048018f237d49c49c"
+    },
+    {
+      "path": "data/train.jsonl",
+      "bytes": 3621752,
+      "sha256": "62a55cc0ce37f76078452ba95801955dbb33c01762a1b0cb881a108f0ce7d548"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Reproduction pins captured from:
+# the pinned project environment's `python -m pip freeze`
+# on 2026-11-14. Install in a Python 3.12 environment.
+accelerate==1.15.0
+datasets==4.8.5
+evaluate==0.4.6
+gradio==6.31.0
+huggingface-hub==1.33.0
+jsonschema==4.26.0
+numpy==2.5.4
+pandas==3.1.1
+peft==0.21.2
+protobuf==7.36.2
+pyarrow==26.0.1
+PyYAML==6.0.3
+safetensors==0.8.0
+scikit-learn==1.9.1
+scipy==1.18.1
+sentencepiece==0.2.3
+tokenizers==0.23.3
+torch==2.14.1+cu126
+transformers==5.22.2
+trl==1.7.1

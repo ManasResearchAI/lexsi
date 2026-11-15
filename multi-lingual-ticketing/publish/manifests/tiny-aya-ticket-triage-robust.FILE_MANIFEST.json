@@ -1,0 +1,41 @@
+{
+  "schema": "multilingual-ticketing.publish-file-manifest/1",
+  "package": "tiny-aya-ticket-triage-robust",
+  "package_type": "model",
+  "file_count": 6,
+  "payload_bytes": 263279437,
+  "forbidden_model_files_present": [],
+  "model_allowlist_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2312,
+      "sha256": "7abc816b69fa1caa1b6cde497b4fe1e1c26bcccc8f8d29a6c3e85bb5cd121452"
+    },
+    {
+      "path": "adapter_config.json",
+      "bytes": 1182,
+      "sha256": "60ddec5e282092edc09ffc612dd52f689a60774431c262ad4b5a9c4077c7e65f"
+    },
+    {
+      "path": "adapter_model.safetensors",
+      "bytes": 241895584,
+      "sha256": "68c3ba5978e61748ecc44f7cef3e3bac4a27d59d7220403cfd48b9df51b1f9b7"
+    },
+    {
+      "path": "chat_template.jinja",
+      "bytes": 3239,
+      "sha256": "2147c474f41b522b7296f74692b9f31e45f49a31465960576a9d321339c5915a"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 21376527,
+      "sha256": "2227ea9c52e8afb3f98bfed2679008b275f2664de69dfde174b374389eb0225d"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 593,
+      "sha256": "cd98275e0786e6fca40f6f062e28b136483be6a4b784dab3fb6d2f053a79045e"
+    }
+  ]
+}

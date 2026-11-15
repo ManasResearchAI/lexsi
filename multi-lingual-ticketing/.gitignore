@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+outputs/*
+!outputs/.gitkeep
+models/*
+!models/.gitkeep
+artifacts/evidence/*
+!artifacts/evidence/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+

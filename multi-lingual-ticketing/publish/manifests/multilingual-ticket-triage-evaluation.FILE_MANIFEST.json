@@ -1,0 +1,814 @@
+{
+  "schema": "multilingual-ticketing.publish-file-manifest/1",
+  "package": "multilingual-ticket-triage-evaluation",
+  "package_type": "dataset",
+  "file_count": 158,
+  "payload_bytes": 242193418,
+  "forbidden_model_files_present": [
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1000/trainer_state.json",
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1500/trainer_state.json",
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2000/trainer_state.json",
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2500/trainer_state.json",
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2819/trainer_state.json",
+    "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-500/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-1000/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-1500/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-2000/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-2500/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-2798/trainer_state.json",
+    "training_traces/outputs/sft-clean-full-20261113/checkpoint-500/trainer_state.json"
+  ],
+  "model_allowlist_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2319,
+      "sha256": "5cd6c1c8e0694cd7595cd65d7e1b8ca594f8845694b5900128035f606926a44a"
+    },
+    {
+      "path": "artifacts/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "artifacts/evidence/additional_review_notes.md",
+      "bytes": 1318,
+      "sha256": "82acc0f151fafaa251bf7bbcbe4d33efbd76f802e6b9ec22d679bdebce991c35"
+    },
+    {
+      "path": "artifacts/evidence/auditkit-redteam-adversarial-1000/redteam_report.json",
+      "bytes": 36703,
+      "sha256": "dc5eb8496bfd23e907c2eaafc17c1e0c9c8b2cc8094945a28c3a9607ebfea08c"
+    },
+    {
+      "path": "artifacts/evidence/earth-overfit-heldout-50-jsonstop-v1/metrics.json",
+      "bytes": 736,
+      "sha256": "aa1868af62da1cfe603c40dd9f1555774318826b6d5ef07155b06d239b71380a"
+    },
+    {
+      "path": "artifacts/evidence/earth-overfit-heldout-50-jsonstop-v1/predictions.jsonl",
+      "bytes": 174775,
+      "sha256": "9ed58c1ea2a7c0904b0223f3f73556b8bfc7c08553566fd0f223f2bbf84cb13d"
+    },
+    {
+      "path": "artifacts/evidence/global-overfit-auditkit-redteam/redteam_report.json",
+      "bytes": 36971,
+      "sha256": "c172dc269789cc322f21997e98f56d3bf2f34aef47732e2b544bed23aa2614f7"
+    },
+    {
+      "path": "artifacts/evidence/global-overfit-heldout-50-jsonstop-v2/metrics.json",
+      "bytes": 690,
+      "sha256": "0a1575cdc84c6ed765a9f53d8aecb37da85b45134c92be6a4725a02ab8082681"
+    },
+    {
+      "path": "artifacts/evidence/global-overfit-heldout-50-jsonstop-v2/predictions.jsonl",
+      "bytes": 167641,
+      "sha256": "e9d45b4f3197a554899e6ff1af0f99cd81dd1798f50257b6df8b145e97540f9a"
+    },
+    {
+      "path": "artifacts/evidence/global-overfit-heldout-50-jsonstop-v3/metrics.json",
+      "bytes": 723,
+      "sha256": "d0d5d188aa37db62c78a10ae62d69eb20fbcf4db44c6042010b3945995a6ed6d"
+    },
+    {
+      "path": "artifacts/evidence/global-overfit-heldout-50-jsonstop-v3/predictions.jsonl",
+      "bytes": 174428,
+      "sha256": "2c0f12ec34c02e61a4b11544f11c3594a5c0d729633a4846b44b865d91f83541"
+    },
+    {
+      "path": "artifacts/evidence/global-vs-earth-overfit-50/comparison.json",
+      "bytes": 1542,
+      "sha256": "b00bd01d91c7da30fd49d6c5564f9661af2a2f38dc6b1e9f5a9b825b613fa65b"
+    },
+    {
+      "path": "artifacts/evidence/gradio-selected-adversarial-1000-smoke.json",
+      "bytes": 5597,
+      "sha256": "b70929c14709cd4ef2dd256bf331160b40c36521685654b11482a8a709d15840"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline/metrics.json",
+      "bytes": 1536,
+      "sha256": "185676a317feb940b45a98f89943135dcb2aedabbc168fab0b3d41018979577d"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline/predictions.jsonl",
+      "bytes": 28832658,
+      "sha256": "ac6a2b0fdb890500fca2d3e30e1bc1b4be954556ce02ace05176788f5efff760"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-auditkit/auditkit_report.json",
+      "bytes": 16218992,
+      "sha256": "a7230260ae9cc09f49716cc4e71f5f08eae70772f5e6f8fbbdcddd42a0bf9533"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-auditkit/lexsi_provenance.json",
+      "bytes": 295,
+      "sha256": "f0b138f16427a7489e0648821d44d3170fe4cf96147d60ba8400af8cecad558a"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-auditkit/performance.json",
+      "bytes": 251,
+      "sha256": "9703cf7363e5bdeb9a7ba0d90698f22c36904c8be43d3b23ec3710e4109c4751"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-v2/metrics.json",
+      "bytes": 1536,
+      "sha256": "185676a317feb940b45a98f89943135dcb2aedabbc168fab0b3d41018979577d"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-v2/predictions.jsonl",
+      "bytes": 29331452,
+      "sha256": "5743b23d920a20b4896a83e7029a3093f08487293885e632eaf1a9f228c3b7b9"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-v2-auditkit/auditkit_report.json",
+      "bytes": 16218992,
+      "sha256": "a7230260ae9cc09f49716cc4e71f5f08eae70772f5e6f8fbbdcddd42a0bf9533"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-v2-auditkit/lexsi_provenance.json",
+      "bytes": 295,
+      "sha256": "bc4e2f780e5a7d89d16d9c71c27d99cfb6bdcf18d0eb4ff85bf80d80c6d4c58a"
+    },
+    {
+      "path": "artifacts/evidence/majority-baseline-v2-auditkit/performance.json",
+      "bytes": 385,
+      "sha256": "ac7f6245d45dc7a1b01a33f2245dc2f9df3d32650ba7bf3b52d016b510a14831"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-earth-45/metrics.json",
+      "bytes": 1422,
+      "sha256": "e7c380458a86f92fafa1418f44924631804573a92c1ecbc0db9e575605eb578f"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-earth-45/predictions.jsonl",
+      "bytes": 135998,
+      "sha256": "2b6fbf04587e2635cb28cdfb9d77d1d59c1564c98f314abc162e22fd04bb5985"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-earth-900/metrics.json",
+      "bytes": 1454,
+      "sha256": "e6f4bfb2e41a07dd85a8962f2ccbc207e861863ed550ff4cddbb43862d1c9efe"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-earth-900/predictions.jsonl",
+      "bytes": 2763240,
+      "sha256": "059c874abf54203c886df2a35fe2abdedc1d92443d32b0fa980c6076ccbead0b"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-global-45/metrics.json",
+      "bytes": 1410,
+      "sha256": "ae736b76ba3b0d81d6295420df442f2dee3d9bf34e32de02454f18551dda653e"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-global-45/predictions.jsonl",
+      "bytes": 135605,
+      "sha256": "87974028c4405e8fe09442598f3c9bec7e1b79ea2c4474e3e64781fee04da4db"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-global-900/metrics.json",
+      "bytes": 1452,
+      "sha256": "c5cd568b469d48d671ec60fc9637493f27af4c9bbe99ae8b93bbcd84554a00f5"
+    },
+    {
+      "path": "artifacts/evidence/matched-clean-base-global-900/predictions.jsonl",
+      "bytes": 2757804,
+      "sha256": "ff4280bf770f76fa67add72124c2d64f23ed15322807128c533f2dc1a584cc9c"
+    },
+    {
+      "path": "artifacts/evidence/overfit-heldout-50-v1/metrics.json",
+      "bytes": 581,
+      "sha256": "36a266b6a870e857f22649020b56a56fdbb73dacc3711b52a4562989c49f74d9"
+    },
+    {
+      "path": "artifacts/evidence/overfit-heldout-50-v1/predictions.jsonl",
+      "bytes": 174493,
+      "sha256": "dd55cff5027289642b84e35fced9fc029297548f896dc3032c5fb445a3576144"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-earth-300/attack_metrics.json",
+      "bytes": 943,
+      "sha256": "08b3a6f29aad1607b84d773285a3132e936cb228308f156075cb8c0aa0ea656f"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-earth-300/attack_metrics_guard-v2.json",
+      "bytes": 909,
+      "sha256": "588fe50adbbbd4a604e09d68468fd1c74a13bc4ab6fb031ca13c6a69f433fb9c"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-earth-300/metrics.json",
+      "bytes": 1319,
+      "sha256": "a8cd2d6c4774ef06c91278a0f2e5a87777189b5bc13e4df0bd6f59177020bbcf"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-earth-300/predictions.jsonl",
+      "bytes": 1116145,
+      "sha256": "3c0b8b98146f01dc767ddef9a0ce021352a946b163f08a9cb5cb08b010165284"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-global-300/attack_metrics.json",
+      "bytes": 957,
+      "sha256": "650e1e246ddadeb6ab48969bf610d6895f868dbdf311bf62978dd92c7ff153ef"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-global-300/attack_metrics_guard-v2.json",
+      "bytes": 906,
+      "sha256": "77b37d81358f2e2cf6937ef90675f7b0948c209181613c12d1e4d174ba6be86a"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-global-300/metrics.json",
+      "bytes": 1349,
+      "sha256": "9129ac9e55438fa17f9ab02079099cb2accf110f9bcd69d6edaa3cef529b4d65"
+    },
+    {
+      "path": "artifacts/evidence/redteam-a4-base-global-300/predictions.jsonl",
+      "bytes": 1110424,
+      "sha256": "5889dc477d2496bb7d83a9907e98aea4d64f24c11d384cb0874d0b5d899b1fc5"
+    },
+    {
+      "path": "artifacts/evidence/redteam-adversarial-1000-900/predictions.jsonl",
+      "bytes": 2188963,
+      "sha256": "d9f3fd06fe3359b576de652d2eb0dad55990312e09a586ebf157edf6d6bf7185"
+    },
+    {
+      "path": "artifacts/evidence/redteam-adversarial-1000-900-merged/metrics.json",
+      "bytes": 1995,
+      "sha256": "339f69899ecd2485d91e1b6913d9d31bc957ab56f521f8e24e709db31452c514"
+    },
+    {
+      "path": "artifacts/evidence/redteam-adversarial-1000-900-merged/predictions.jsonl",
+      "bytes": 6481773,
+      "sha256": "07460efba1790815542cae28369775976a00798355da72d80789384f0248a7b9"
+    },
+    {
+      "path": "artifacts/evidence/redteam-adversarial-1000-a7-shard/metrics.json",
+      "bytes": 1678,
+      "sha256": "32581734374c63ba8164dee34f38e2658db8ed7116acec096ea0765f9860f440"
+    },
+    {
+      "path": "artifacts/evidence/redteam-adversarial-1000-a7-shard/predictions.jsonl",
+      "bytes": 4292810,
+      "sha256": "c468cf82cd869541b13577f126b2c6d5008864e1e35a94f408b620e160c44de9"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-earth-900/attack_metrics.json",
+      "bytes": 1584,
+      "sha256": "9660e1378f2faa0028a724bd3e2e3d84e5010ad241998f26390cc1829c58dc18"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-earth-900/metrics.json",
+      "bytes": 1499,
+      "sha256": "d23cc273dc504a9832c67cd673b4e1529d868427e3b46ca675485bac97aa4f2b"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-earth-900/predictions.jsonl",
+      "bytes": 6424747,
+      "sha256": "f7ec8670287717ef28bd7443f788d2cfe497cb3b377de8f9d698a1736538d552"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-900/attack_metrics.json",
+      "bytes": 1639,
+      "sha256": "85db2db11e933c02627a49943c4f9010c56dc26bef8c88870d554abe1beeba7b"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-900/metrics.json",
+      "bytes": 1498,
+      "sha256": "fed0bb7906cf2c1b1d4f2f3b26b9e647020f83223963b2b66b761ce646960ac3"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-900/predictions.jsonl",
+      "bytes": 6432426,
+      "sha256": "3bf93b1441ff1ed52945afdaf061b00d433039ae82a27250980d9a5f72385b5c"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-900-partial/predictions.jsonl",
+      "bytes": 91987,
+      "sha256": "d5349d69f8ca7ea2319eaa45e10fd2316236f1beb12802a09717c6cb773de95c"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-vs-earth-900/clean_retention.json",
+      "bytes": 4039,
+      "sha256": "6e9c8351e53e2596a3cf817dc4a040529d0efc12b45e3c709d03d7a0dcffe2db"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-vs-earth-900/comparison.json",
+      "bytes": 6557,
+      "sha256": "29c59cc7fcb357558d9c100be78f7b4cc0324862812d1567a6c11437fff3aac3"
+    },
+    {
+      "path": "artifacts/evidence/redteam-base-global-vs-earth-900/payload_match_review.json",
+      "bytes": 2195,
+      "sha256": "5e0e5b1b3d5aba7abe613af32305b8bfcd333fa1550a93e14eec9d734a6b6a14"
+    },
+    {
+      "path": "artifacts/evidence/redteam-false-alarms-base-earth/metrics.json",
+      "bytes": 288,
+      "sha256": "9d811f6fcb69c13e450c5499b2b40e66a0309b9d25f73cb0f64e5797fd5a30be"
+    },
+    {
+      "path": "artifacts/evidence/redteam-false-alarms-base-earth/predictions.jsonl",
+      "bytes": 7220,
+      "sha256": "c90851c4d9ca80e6ff11e5e8f4781cbb7df8182f8570da5861b7eaeae3e3421a"
+    },
+    {
+      "path": "artifacts/evidence/redteam-false-alarms-base-global/metrics.json",
+      "bytes": 289,
+      "sha256": "7781e8dcf2ac0cd438aac6246297af6c831d57e1dde13069eefe4cac824f1396"
+    },
+    {
+      "path": "artifacts/evidence/redteam-false-alarms-base-global/predictions.jsonl",
+      "bytes": 7564,
+      "sha256": "fc64e33bf96eb9ba83961a0be055fafabc446df4e5f50dc69c403ed360f6ed7f"
+    },
+    {
+      "path": "artifacts/evidence/redteam-guard/metrics.json",
+      "bytes": 1113,
+      "sha256": "7b1514b9d53d370cdf76f179c3e67c25a0a8bcbb6411210af7da729c50e6dc68"
+    },
+    {
+      "path": "artifacts/evidence/redteam-guard-a4-v2/metrics.json",
+      "bytes": 498,
+      "sha256": "6690ada0b907d292757b6ac059fdc448de6c705efa8e95fdc970d8e94dad47a5"
+    },
+    {
+      "path": "artifacts/evidence/redteam-guard-v2/metrics.json",
+      "bytes": 1090,
+      "sha256": "b672d8f18c02652a66a4e22124466699021faa0b6a512da94a24cb752d9ee19e"
+    },
+    {
+      "path": "artifacts/evidence/redteam-strict-payload-match/adversarial-1000-900-merged.json",
+      "bytes": 249631,
+      "sha256": "5d3175efb727ee54bb6944caf03cebc6079ebfe29f3170696c8a80c466d91bf8"
+    },
+    {
+      "path": "artifacts/evidence/redteam-strict-payload-match/base-earth-900.json",
+      "bytes": 250461,
+      "sha256": "f6b7f7505561c2db654dde0a7c29a655492eb96d00af8583dfc0e5500e44281a"
+    },
+    {
+      "path": "artifacts/evidence/redteam-strict-payload-match/base-global-900.json",
+      "bytes": 250365,
+      "sha256": "d25f3e07a65a4ad6f86605cc6495e7459ade627227a84d4fb1a4f1805fc13deb"
+    },
+    {
+      "path": "artifacts/evidence/speaker-review-adversarial-1000.csv",
+      "bytes": 27445,
+      "sha256": "5b6a383fdaf769eec3584461fcf374991eac8c9a0899d2ca350e6d9a6d83dde2"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-adversarial-1000/metrics.json",
+      "bytes": 1707,
+      "sha256": "9204e7171e0b29181c7e09ac330d0d8a1295721962c2514f6d1849f1678a1d5d"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-adversarial-1000/predictions.jsonl",
+      "bytes": 11896447,
+      "sha256": "ab6e51cdb448394e7ee97b7ae1567cbbab22d81144751ab1a91e481490a624d4"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-adversarial-1000-auditkit/auditkit_report.json",
+      "bytes": 5723790,
+      "sha256": "5585efedb3f98dbf2a18d3133596d263dbcf4a6f28b22cb5a560ed58d8c86942"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-adversarial-1000-auditkit/lexsi_provenance.json",
+      "bytes": 295,
+      "sha256": "9132297a1304384a76b340455237e9819f0975ccddb8010dba2d255120ea3b6f"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-adversarial-1000-auditkit/performance.json",
+      "bytes": 381,
+      "sha256": "f16ed34a1c4c097e0d932d6d6d0a203a91fc6ba7ee65f31dd0971dd66a832c52"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-base/metrics.json",
+      "bytes": 1688,
+      "sha256": "57cf0e1d2819529614a458d2cd20058ded03190bec093abf7d586d5827e88312"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-base/predictions.jsonl",
+      "bytes": 12241918,
+      "sha256": "d9143587ec63c741e31e49375f0d83c8ff68e7c273d3351517a1fe1102438fb5"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-base-auditkit/auditkit_report.json",
+      "bytes": 5818377,
+      "sha256": "1865d41cf5f8c7dca71395df951fa4c513303fb10d1af6070ecee869ba387fe4"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-base-auditkit/lexsi_provenance.json",
+      "bytes": 295,
+      "sha256": "eb7b257011cc60f942c0fb4df954ee5bc96947cb6b0515a93cebc27bdf0c0938"
+    },
+    {
+      "path": "artifacts/evidence/test-v2-base-auditkit/performance.json",
+      "bytes": 382,
+      "sha256": "605a650e446f6ee3bb2f393eec31d1054fe903d291f1936d260aeaa9458bb0f6"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-1000/metrics.json",
+      "bytes": 1304,
+      "sha256": "20d5a59cafdef0f9ac84fe8d13262d30f2a5c3ba0c3ecc53e47742c7667adaaa"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-1000/predictions.jsonl",
+      "bytes": 6261150,
+      "sha256": "cc56bcf637562fe1eb724058b338281d7ea27b94675f46f8db11958e65f4be87"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-2000/metrics.json",
+      "bytes": 1302,
+      "sha256": "cd5404659cc99bd8882e537d40b15ab4d2855bd46de22cbf5ed429d5a351f9c6"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-2000/predictions.jsonl",
+      "bytes": 6262762,
+      "sha256": "80e96297464676733e8d3c9613d9c3891c86aa1bfc8ca43629183f11e9e33c77"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-final/metrics.json",
+      "bytes": 1286,
+      "sha256": "4bca12eacdb08a13d438639bd14a2808007d36144d4758dcd8f239c0e1af0761"
+    },
+    {
+      "path": "artifacts/evidence/validation-adversarial-final/predictions.jsonl",
+      "bytes": 6263556,
+      "sha256": "7a0ae436d3af08e59911fa80631e2c1598db6164e7d53d0d945140c45f47ff42"
+    },
+    {
+      "path": "artifacts/evidence/validation-base/metrics.json",
+      "bytes": 1321,
+      "sha256": "a11af5e97e0d97dae046256f00aab2d40997b8334f7045ac2609b1f4deebdce3"
+    },
+    {
+      "path": "artifacts/evidence/validation-base/predictions.jsonl",
+      "bytes": 6469697,
+      "sha256": "56b1f9c035b9bed05f9929edba4407597b82d15756b64ad8d2fcd952b6d8b5ef"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-1000/metrics.json",
+      "bytes": 1283,
+      "sha256": "2d4141c6a5009355e5c41f79e6efc2ea1c037cbe057770682959114d0d7554ee"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-1000/predictions.jsonl",
+      "bytes": 6252095,
+      "sha256": "3dbe27d7470b25b46cf06a69202f9a05e47743e648422ab38c2eaedc32784fbe"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-2000/metrics.json",
+      "bytes": 1277,
+      "sha256": "17a4cd881b6482bdf8fff0c908f69a001298cef9a632505257feb200f401bac6"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-2000/predictions.jsonl",
+      "bytes": 6261619,
+      "sha256": "28f0985634d34180f0081c4759223545a4a5dec82941db97a7b3e0fe35eadcf5"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-final/metrics.json",
+      "bytes": 1302,
+      "sha256": "1d6a44c5c68f5a41d2e20ede2cdc71606ee2180f157bedb18925fc364fde179a"
+    },
+    {
+      "path": "artifacts/evidence/validation-clean-final/predictions.jsonl",
+      "bytes": 6265676,
+      "sha256": "943222e70dd80c3dd86f0cf830aaaa84c3413189668c1cd6d1c6822100f9efc6"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-1000/metrics.json",
+      "bytes": 846,
+      "sha256": "0b7cfea82ae6b1bc3be88b695a42c8bdd0f493618ff58d697acf54f1fe35665a"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-1000/predictions.jsonl",
+      "bytes": 765453,
+      "sha256": "93f01d16b467ce66a6fcfd7bd13115294ec05c8c23b1cc44863f107e511a42ea"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-2000/metrics.json",
+      "bytes": 844,
+      "sha256": "7f81b691a305315ae32603fbba85311536daec8b86d623205fdd851af0311241"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-2000/predictions.jsonl",
+      "bytes": 763378,
+      "sha256": "2fe8874e5e1be14440406a635aa499a599412ff1654e580925f903618bb780a6"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-final/metrics.json",
+      "bytes": 845,
+      "sha256": "41f43e81479108db852fb804fef3c98ee710a2e6f6aecb8a8c6f8ac6879a5f98"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-adversarial-final/predictions.jsonl",
+      "bytes": 763350,
+      "sha256": "e5b165a18046cdb258741a3fb4c7a77a64fe59baeed47b5dde961de72d904e13"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-base/metrics.json",
+      "bytes": 817,
+      "sha256": "fab375ccbaaf816cd8ed061535e9406252f61988cc31a0ea72d24dbb8ae5600c"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-base/predictions.jsonl",
+      "bytes": 777766,
+      "sha256": "0945659d49410478bff1053c0fa2cd3a2ebf29789f0a89739902f097f255f134"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-1000/metrics.json",
+      "bytes": 831,
+      "sha256": "5b53c567265eb0b962702534a7042a6f7e6cb0c57c22d4c58438b14231c9d809"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-1000/predictions.jsonl",
+      "bytes": 764579,
+      "sha256": "6088fd61c73cf15940f4be8f95c1ec225f5d97de039ae4f3564a809829cff609"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-2000/metrics.json",
+      "bytes": 846,
+      "sha256": "9007d8f07454a06384e8ac73432218be1f10cff19f23e63529d011a7ef131ba4"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-2000/predictions.jsonl",
+      "bytes": 764630,
+      "sha256": "22f10578600d0be759234ae10ed2f43c71ccd32c24b86f641a8bd9e56068e831"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-final/metrics.json",
+      "bytes": 816,
+      "sha256": "9c878a6d5ca3bafc47403041469803f7af0265de556e1b8f0016376ec98b1d9a"
+    },
+    {
+      "path": "artifacts/evidence/validation-english-clean-final/predictions.jsonl",
+      "bytes": 766296,
+      "sha256": "0e563d49a10793239f754450cdc5b4befdce1ff1889b991ac3c89d435e13ca07"
+    },
+    {
+      "path": "artifacts/evidence/validation-gross-stops/report.json",
+      "bytes": 3993,
+      "sha256": "943230c8f30f0b8f76e3cc333e89e58abcd294ef8a065d05a5ef1f360f732dd7"
+    },
+    {
+      "path": "artifacts/review-export/redteam-adversarial-1000-900.review.jsonl",
+      "bytes": 1164137,
+      "sha256": "1a5d7ec37e781aa3bb7bea90301fba2d3f3f424874272e9d8a9034e7c31eab44"
+    },
+    {
+      "path": "artifacts/review-export/redteam-base-earth-900.review.jsonl",
+      "bytes": 1087936,
+      "sha256": "24665484fccab72937ec6341f83fd9598a141477dd5090c0d69f764bba89584f"
+    },
+    {
+      "path": "artifacts/review-export/redteam-base-global-900.review.jsonl",
+      "bytes": 1096529,
+      "sha256": "b20a0a524b3587aa352f871031b439d8c1da8f1130b562a00bf294832c4df67c"
+    },
+    {
+      "path": "fixtures/test-subsample-v1.jsonl",
+      "bytes": 10328414,
+      "sha256": "40001f0e264252c0595c63ee991d3a83d3758ed3d0810073dfecda224d50f7f9"
+    },
+    {
+      "path": "fixtures/test-subsample-v1.manifest.json",
+      "bytes": 1443,
+      "sha256": "6fcfb74486bcdf88c2b73eabe6b8cd9f0a2f7069dbf3030dcc799df2e002323d"
+    },
+    {
+      "path": "fixtures/test-subsample-v2.jsonl",
+      "bytes": 9696872,
+      "sha256": "e37ffb952329c64390b5205a514a12b5bbd49b2e678abc44293ac9eafaba61ac"
+    },
+    {
+      "path": "fixtures/test-subsample-v2.manifest.json",
+      "bytes": 955,
+      "sha256": "d3dcfb9019545dbe2e5f5baca9ddbfbf1087e85887754979324717367e0dcd94"
+    },
+    {
+      "path": "fixtures/validation-english-supplement-v1.jsonl",
+      "bytes": 631542,
+      "sha256": "a7f4d5ce93badfe3eebc7058ca746df01dd339e0ae5539d9bd4a0d363372cb34"
+    },
+    {
+      "path": "fixtures/validation-english-supplement-v1.manifest.json",
+      "bytes": 903,
+      "sha256": "7315216ba5506194e6f3cc434cd40d6070d1f5083338ff090b98594ef26528c8"
+    },
+    {
+      "path": "fixtures/validation-subsample-v1.jsonl",
+      "bytes": 5079109,
+      "sha256": "c52ce135685221deee9d1b5a64fa36b23f072e88f1c4dc81cc04fdd049776c80"
+    },
+    {
+      "path": "fixtures/validation-subsample-v1.manifest.json",
+      "bytes": 1284,
+      "sha256": "fb3a312db81357e183839227abadb6dde115af0e9ef31c09a1179e1277fb3220"
+    },
+    {
+      "path": "reviews/CLAUDE-REVIEW.md",
+      "bytes": 5970,
+      "sha256": "4dbd633f08662c46127145519b486ef7662968025451af55d2d57aa4d61f3ee7"
+    },
+    {
+      "path": "reviews/CLAUDE-REVIEW.raw.md",
+      "bytes": 2475,
+      "sha256": "60f23b5d045655bcabecb8706ba4be3873a5430d5e1a59e7b305f5d4e25479b8"
+    },
+    {
+      "path": "reviews/PREDICTION-REVIEW.md",
+      "bytes": 6845,
+      "sha256": "637081485209e1dc7a7ae9f83aafab30a5a9e9c67ca51f682ea715d06c02ff4d"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1000/trainer_state.json",
+      "bytes": 61549,
+      "sha256": "43db6582ad32d30ea7e29fb42eab7236fa5e32e4a396e12ba41fe2b1401342bc"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1000/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1500/trainer_state.json",
+      "bytes": 92040,
+      "sha256": "7d1fcfa3902dbde40e74159c00c9e52df74ec3eb01fa5b081f1803d4798df4aa"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1500/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2000/trainer_state.json",
+      "bytes": 122658,
+      "sha256": "eab0545460fb99f56fd0523bac2743eb7d40ac49bb1031832cfbbb952c5e95c3"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2000/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2500/trainer_state.json",
+      "bytes": 153273,
+      "sha256": "8fd1135a34cf838686cb7e79d7345bc350c53d50dcf7bf1ab1d6efab90611d3d"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2500/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2819/trainer_state.json",
+      "bytes": 172554,
+      "sha256": "51e7622bde75b652d2217862ecd683f6e9d6e23befb5f33a0badc12efdc977d0"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-2819/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-500/trainer_state.json",
+      "bytes": 31181,
+      "sha256": "92fd898023856f262e2ce59855baf7d3312b2e0a1721429ba6e861385ecbc3b1"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-500/training_args.bin",
+      "bytes": 5841,
+      "sha256": "997b462a3a4725000566806c8af8af14ca8f7f8b8d7ab5b4190aaba3ccd5afb5"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/lexsi_provenance.json",
+      "bytes": 1309,
+      "sha256": "f26ad86107cf594b544daf62fb7a02bf2c34c1db539f1a72d0fb1838a72a347f"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/tensorboard/events.out.tfevents.1794514783.deepsr.3038959.0",
+      "bytes": 59413,
+      "sha256": "74660a430550b22c1998fb0eb2eb14c77597e872889a8e9448c1088cc126442e"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/tensorboard/events.out.tfevents.1794546785.deepsr.3208922.0",
+      "bytes": 88,
+      "sha256": "ed4d12b45a4fd82cdef33fe048d75d8ad7af716fa5d6b0bcf5192fc4ac734ffa"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/tensorboard/events.out.tfevents.1794547013.deepsr.3210979.0",
+      "bytes": 25248,
+      "sha256": "2a1d175fd1305c20fd8f48dafa10d973d2cc815077e9551b5fd9765f02ccdda9"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/tensorboard/events.out.tfevents.1794571010.deepsr.3352000.0",
+      "bytes": 1788,
+      "sha256": "2ef3c53a308ff5d01a28be6b77ceb1436c0cac4d96293c3fd4a3d5f1a7b610a7"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/tensorboard/events.out.tfevents.1794572008.deepsr.3362036.0",
+      "bytes": 157979,
+      "sha256": "d1981a737bb04917e680c61f30a44c081440df3593cac77001290234dcd68eff"
+    },
+    {
+      "path": "training_traces/outputs/sft-adversarial-full-20261113/training_args.bin",
+      "bytes": 5841,
+      "sha256": "433bef20350dc9417c222252b2aeaa982085d7b6d89f40e2917b3cb46b78979e"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-1000/trainer_state.json",
+      "bytes": 61443,
+      "sha256": "b0fa8671e8ada88f9c1c1476e14e077fcc0c1c594d7f6b94f7bbde0f8392b290"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-1000/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-1500/trainer_state.json",
+      "bytes": 91940,
+      "sha256": "f2142aa4212dcdd82ab7c68feb8867a96ad0946af90d52ef2618af8f666a8a40"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-1500/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2000/trainer_state.json",
+      "bytes": 122542,
+      "sha256": "cc6005cfa670d2095fef24799e23996a30ffb75cc3002afe27a87ac7be107f1e"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2000/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2500/trainer_state.json",
+      "bytes": 153140,
+      "sha256": "48286b77036c36ad50bcc54cdef39ea73c01e8df32927a80258f262025cf581c"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2500/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2798/trainer_state.json",
+      "bytes": 171201,
+      "sha256": "b10eb671e385cd7a8038e6fc8fe9ed22b766107d1852bd4748a0534e449e24f4"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-2798/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-500/trainer_state.json",
+      "bytes": 31071,
+      "sha256": "9cfd63ecfc5a8c6f1570a2c5c1359f298a8ba22726873cab0c80ca47b1c1c5d4"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/checkpoint-500/training_args.bin",
+      "bytes": 5777,
+      "sha256": "98fed2867a1ebf841927ef632a22e3e04ef2e62d268fa938bfc6c8d5bdb76289"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/lexsi_provenance.json",
+      "bytes": 1280,
+      "sha256": "1a63021d4c3cfca695f68d8a387150b01c1324dac1a73dfe530106123ca18bf1"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/tensorboard/events.out.tfevents.1794514742.deepsr.3038564.0",
+      "bytes": 59753,
+      "sha256": "f1dce2004b90012b343e737032a73da8c03a02069c0afb992958d736d5b6f0c8"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/tensorboard/events.out.tfevents.1794546747.deepsr.3208557.0",
+      "bytes": 88,
+      "sha256": "38729d2a0aaa0a39df6b3e596c0ac3e798462de01159d10b91877807c52ec3dc"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/tensorboard/events.out.tfevents.1794547010.deepsr.3210940.0",
+      "bytes": 25248,
+      "sha256": "c5d0305fb59710ffb279a732e9f9ecc563fbf5e2e7d3d4e298961cda9771711c"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/tensorboard/events.out.tfevents.1794571011.deepsr.3352015.0",
+      "bytes": 88,
+      "sha256": "00b240641fd1d48347f92c901bc427943b9b595d709e608ae2ef1dbb9f0a1503"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/tensorboard/events.out.tfevents.1794571190.deepsr.3354535.0",
+      "bytes": 156619,
+      "sha256": "47a40783fcf4af3cde8e52c9df5fdab00361e37301f8914d3cc758dfe6bdffaa"
+    },
+    {
+      "path": "training_traces/outputs/sft-clean-full-20261113/training_args.bin",
+      "bytes": 5841,
+      "sha256": "bc92e147c55e2950d55e89b244ae745feba8ea69fc887583982981b0f6228394"
+    }
+  ]
+}

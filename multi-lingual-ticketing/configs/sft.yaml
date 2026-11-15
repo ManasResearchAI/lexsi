@@ -1,0 +1,22 @@
+model_name: CohereLabs/tiny-aya-global
+dataset_name: data/processed/curatorkit
+config_name: sft_messages
+backend: trl
+output_dir: outputs/sft
+num_epochs: 2
+batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 0.0001
+max_seq_length: 1024
+seed: 20261112
+fp16: true
+use_peft: true
+lora_r: 32
+lora_alpha: 64
+lora_dropout: 0.05
+assistant_only_loss: false
+completion_only_loss: true
+eval_strategy: "no"
+load_best_model_at_end: false
+lora_target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+

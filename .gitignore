@@ -1,0 +1,53 @@
+# Private planning and legacy work
+/.agent/
+/.agent-*/
+/oreo/
+/oreo-submission/
+/scratch/
+/worktrees/
+/output/
+/artifacts*/
+/inkling/
+/unsloth_compiled_cache/
+/logs/
+/ollama-install.sh
+/TODO.md
+/.aws/
+/.codex/
+/.agents/
+
+# Generated multilingual-ticketing data and model artifacts
+/multi-lingual-ticketing/.agent/
+/multi-lingual-ticketing/data/raw/
+/multi-lingual-ticketing/data/processed/
+/multi-lingual-ticketing/artifacts/
+/multi-lingual-ticketing/outputs/
+/multi-lingual-ticketing/models/
+/multi-lingual-ticketing/publish/models/
+/multi-lingual-ticketing/publish/datasets/
+/multi-lingual-ticketing/publish/space/
+
+# Large model, optimizer, dataset, and log files
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.arrow
+*.parquet
+*.log
+events.out.tfevents.*
+
+# Local environments, caches, credentials, and editor files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+

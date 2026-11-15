@@ -1,0 +1,131 @@
+{
+  "schema": "multilingual-ticketing.publish-file-manifest/1",
+  "package": "multilingual-ticket-triage-demo",
+  "package_type": "space",
+  "file_count": 24,
+  "payload_bytes": 148592,
+  "forbidden_model_files_present": [],
+  "model_allowlist_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3166,
+      "sha256": "a24b18284e3d7554d19305a3048e0d40a04592b0742523935e520658676e9989"
+    },
+    {
+      "path": "SPACE_CONFIG.json",
+      "bytes": 621,
+      "sha256": "38473f278743473100c0d0a4dbc60e0a6ee0e1c193c647b8eea1d811c4155262"
+    },
+    {
+      "path": "app.py",
+      "bytes": 17503,
+      "sha256": "0e1a89a1d04e209d5208db63245fc55b58cd2d3e8073e8e19654a278cc0f6e8f"
+    },
+    {
+      "path": "evidence/additional_review_notes.md",
+      "bytes": 1318,
+      "sha256": "82acc0f151fafaa251bf7bbcbe4d33efbd76f802e6b9ec22d679bdebce991c35"
+    },
+    {
+      "path": "evidence/auditkit-redteam-adversarial-1000.json",
+      "bytes": 36703,
+      "sha256": "dc5eb8496bfd23e907c2eaafc17c1e0c9c8b2cc8094945a28c3a9607ebfea08c"
+    },
+    {
+      "path": "evidence/evaluation_contract.json",
+      "bytes": 2570,
+      "sha256": "bdb2e8f11fb17b1bbc29ad1e8c79c5e0ae0883aba529940be49abf00b900cf38"
+    },
+    {
+      "path": "evidence/gemini-review.csv",
+      "bytes": 27445,
+      "sha256": "5b6a383fdaf769eec3584461fcf374991eac8c9a0899d2ca350e6d9a6d83dde2"
+    },
+    {
+      "path": "evidence/gradio-selected-adversarial-1000-smoke.json",
+      "bytes": 5597,
+      "sha256": "b70929c14709cd4ef2dd256bf331160b40c36521685654b11482a8a709d15840"
+    },
+    {
+      "path": "evidence/test-v2-adversarial-1000.metrics.json",
+      "bytes": 1707,
+      "sha256": "9204e7171e0b29181c7e09ac330d0d8a1295721962c2514f6d1849f1678a1d5d"
+    },
+    {
+      "path": "evidence/test-v2-base.metrics.json",
+      "bytes": 1688,
+      "sha256": "57cf0e1d2819529614a458d2cd20058ded03190bec093abf7d586d5827e88312"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 141,
+      "sha256": "f17afa936d9592c46b6dc7177e01a908745d9352bead6fef9135682bdf07353b"
+    },
+    {
+      "path": "ticket_system/__init__.py",
+      "bytes": 81,
+      "sha256": "aaa98156ba60411f6da878c20d8011c50270e89b54feea62e2c584cfcdda32c0"
+    },
+    {
+      "path": "ticket_system/cli.py",
+      "bytes": 2149,
+      "sha256": "e3a2767f5f0d5e93ec1db413b57bb49c96657aa671fdbe51ac74f15f06e54452"
+    },
+    {
+      "path": "ticket_system/constants.py",
+      "bytes": 2046,
+      "sha256": "ccea4ee432116c41aa36feabf0b7ff45fa36a92230f0a400c823548fbb9f205b"
+    },
+    {
+      "path": "ticket_system/curate.py",
+      "bytes": 10737,
+      "sha256": "253d8a36fb8d98cfefe4242516dc8db64bae4df14346a663b9fe6d9f05b4b20a"
+    },
+    {
+      "path": "ticket_system/guard.py",
+      "bytes": 6451,
+      "sha256": "045fdfd6273bbf5b4c2c4e45016b1d6931fa9d15feddf04f483e45f86b0d9076"
+    },
+    {
+      "path": "ticket_system/inference.py",
+      "bytes": 5211,
+      "sha256": "fe1cf1083b64e991bca18500b7181f41981914e0456b17b0abe794e1bc860eb1"
+    },
+    {
+      "path": "ticket_system/ledger.py",
+      "bytes": 1492,
+      "sha256": "4c0a1e9c0d72f0396a942c1b9f5ff0126c1ce9e362c5be520902df544ff277b8"
+    },
+    {
+      "path": "ticket_system/metrics.py",
+      "bytes": 4239,
+      "sha256": "f005590ec035cf245df54def8516f8194301852470531feaa81fb554a109e8cb"
+    },
+    {
+      "path": "ticket_system/prompt.py",
+      "bytes": 1047,
+      "sha256": "2f3f2857edd6d64e4310e30074ee2ae468a4d218494de1aba9d961f8104e96e0"
+    },
+    {
+      "path": "ticket_system/records.py",
+      "bytes": 960,
+      "sha256": "9fe3e4ac2abff4d385d969c066584d63c739351db60e8f4cb2e6b85bbfde14db"
+    },
+    {
+      "path": "ticket_system/redteam.py",
+      "bytes": 11543,
+      "sha256": "5ee5d357f44913e72128ed12015f30d874e2e0a8faf291c847f546c35ba7f04c"
+    },
+    {
+      "path": "ticket_system/schema.py",
+      "bytes": 2238,
+      "sha256": "30385c2860a757cb3354920f3b7d6d3ed79ab00348cdf7df0cedcb53bb0366db"
+    },
+    {
+      "path": "ticket_system/text.py",
+      "bytes": 1939,
+      "sha256": "d0ba26646b4b2f47319039fdd1d3a47a645e7dedcb7b14d48d9efc193953f1a8"
+    }
+  ]
+}

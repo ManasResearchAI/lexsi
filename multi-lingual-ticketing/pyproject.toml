@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "multilingual-ticketing"
+version = "0.1.0"
+description = "Yoruba, Swahili, and English support-ticket triage and structured extraction"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+dependencies = ["jsonschema>=4.21", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+data = ["datasets>=3.0", "huggingface-hub>=0.26"]
+model = ["transformers>=4.45", "torch>=2.4", "peft>=0.13", "accelerate>=1.0"]
+demo = ["gradio>=5.0"]
+dev = ["pytest>=8", "ruff>=0.7"]
+
+[project.scripts]
+ticket-system = "ticket_system.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ticket_system"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

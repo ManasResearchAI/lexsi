@@ -1,0 +1,53 @@
+{
+  "schema": "multilingual-ticketing.evaluation-contract/1",
+  "frozen_splits": ["validation", "test"],
+  "model_arms": [
+    "base",
+    "clean_sft",
+    "clean_plus_adversarial_sft",
+    "sft_grpo_optional",
+    "closed_api_optional"
+  ],
+  "decoding": {"do_sample": false, "max_new_tokens": 384},
+  "checkpoint_selection": {
+    "fixture": "data/processed/tickets/validation-subsample-v1.jsonl",
+    "fixture_file_sha256": "c52ce135685221deee9d1b5a64fa36b23f072e88f1c4dc81cc04fdd049776c80",
+    "sample_count": 2096,
+    "english_retention_fixture": "data/processed/tickets/validation-english-supplement-v1.jsonl",
+    "english_retention_fixture_file_sha256": "a7f4d5ce93badfe3eebc7058ca746df01dd339e0ae5539d9bd4a0d363372cb34",
+    "english_retention_sample_count": 216,
+    "seed": 20261113,
+    "candidate_policy": "evaluate checkpoint-1000, checkpoint-2000, and the completed final adapter for each SFT arm on the main validation fixture; evaluate only the separate English supplement for the English-retention gate",
+    "selection_rule": "highest macro intent accuracy among candidates passing every primary and gross-stop gate",
+    "test_access_forbidden": true
+  },
+  "final_test": {
+    "fixture": "data/processed/tickets/test-subsample-v2.jsonl",
+    "fixture_file_sha256": "e37ffb952329c64390b5205a514a12b5bbd49b2e678abc44293ac9eafaba61ac",
+    "sample_count": 3642,
+    "parent_pre_split_fixture": "data/processed/tickets/test-subsample-v1.jsonl",
+    "excluded_english_validation_rows": 216,
+    "run_policy": "run exactly once for the frozen base model and exactly once for each validation-selected SFT checkpoint",
+    "rerun_requires_documented_protocol_exception": true
+  },
+  "metrics": [
+    "json_parse_rate", "schema_valid_rate", "intent_accuracy",
+    "sentiment_macro_f1", "entity_f1", "pii_recall", "latency_seconds", "throughput"
+  ],
+  "primary_gate": {
+    "json_parse_rate_min": 0.98,
+    "pii_recall_min": 0.95,
+    "intent_accuracy_must_improve_over_base": true,
+    "english_retention_max_absolute_drop": 0.02
+  },
+  "gross_stop": {
+    "empty_output_rate_max": 0.01,
+    "schema_valid_rate_min": 0.90,
+    "severe_repetition_rate_max": 0.02,
+    "empty_output_definition": "raw_response is empty after whitespace stripping",
+    "repetition_definition": "rep4 = 1 - unique whitespace-tokenized 4-grams / all 4-grams; severe iff rep4 > 0.3"
+  },
+  "selection_rule": "validation-only selection; the frozen test fixture is reporting-only",
+  "human_review_required": ["off-language output", "unsafe disclosure", "ambiguous entities"]
+}
+

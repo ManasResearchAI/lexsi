@@ -1,0 +1,86 @@
+{
+  "schema": "multilingual-ticketing.publish-file-manifest/1",
+  "package": "multilingual-ticket-triage-curated",
+  "package_type": "dataset",
+  "file_count": 15,
+  "payload_bytes": 60582639,
+  "forbidden_model_files_present": [],
+  "model_allowlist_passed": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 706,
+      "sha256": "5f29778cdd62232462ef77712a12239fd162563c46a1223621b051f0c521d221"
+    },
+    {
+      "path": "clean/README.md",
+      "bytes": 2407,
+      "sha256": "676fd03d07dfb6369359bc351ac05169641206f6c55257c4c0ab32d5d43d7972"
+    },
+    {
+      "path": "clean/checksums.txt",
+      "bytes": 334,
+      "sha256": "45a11c3169245302f518984961c1c0b8548b371cdf5084dcd1a85abed1ef7ed0"
+    },
+    {
+      "path": "clean/dataset_card.md",
+      "bytes": 1871,
+      "sha256": "19630b44f368e5f8df9b55df4994dfdb1a140eed70d1f70b3aed3867d9f0427d"
+    },
+    {
+      "path": "clean/lexsi_provenance.json",
+      "bytes": 569,
+      "sha256": "e2b6e1324eba4c1adcec1a3d328a8b7f2b447c1adfde9eedcf09ab560c936857"
+    },
+    {
+      "path": "clean/manifest.json",
+      "bytes": 1807,
+      "sha256": "5b69a7f0d966a287894c8f19e48de1e2ded9413c7b36a4342a9699d367f14a5f"
+    },
+    {
+      "path": "clean/rejected.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "clean/sft_messages.jsonl",
+      "bytes": 30158514,
+      "sha256": "2c10abc0e7b225a5e4181bc1e74b6c86b550670e5bfb701afab0a7f45721a061"
+    },
+    {
+      "path": "clean-plus-adversarial/README.md",
+      "bytes": 2408,
+      "sha256": "73e6c02964fc637daeac185e1036055a0a4947229229bba724bd84406529fec8"
+    },
+    {
+      "path": "clean-plus-adversarial/checksums.txt",
+      "bytes": 334,
+      "sha256": "460ece7ec11c0b293812faf54c475d014df80cf20fe50ed79357cef502280fe4"
+    },
+    {
+      "path": "clean-plus-adversarial/dataset_card.md",
+      "bytes": 1872,
+      "sha256": "ddc2b248fef27a278115958944fe247b19e3862ed8769346d13c887460d39ab2"
+    },
+    {
+      "path": "clean-plus-adversarial/lexsi_provenance.json",
+      "bytes": 592,
+      "sha256": "0536a6dc14f708f74215ef2241a95a8a2cb24ddb6b64dba691dbc46b68278523"
+    },
+    {
+      "path": "clean-plus-adversarial/manifest.json",
+      "bytes": 1831,
+      "sha256": "6dc2798a7ccefa7729fcd648b7d8a1838794fa8ae31b47836ea860ccb4b77bc7"
+    },
+    {
+      "path": "clean-plus-adversarial/rejected.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "clean-plus-adversarial/sft_messages.jsonl",
+      "bytes": 30409394,
+      "sha256": "9e1bea28af80145b83b6addb69ac85d18689be3912bb33512d6263c3731f56a0"
+    }
+  ]
+}
