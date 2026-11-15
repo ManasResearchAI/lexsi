@@ -3,14 +3,14 @@
   "package": "multilingual-ticket-triage-redteam",
   "package_type": "dataset",
   "file_count": 8,
-  "payload_bytes": 87244001,
+  "payload_bytes": 87244000,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 714,
-      "sha256": "e4c8560d24214fc72bc06ba5d2bbb72d8206060740bda402511247057a34516f"
+      "bytes": 713,
+      "sha256": "cfb99173384b910fef82969873f0ea2de47c639d41902674a46e38881bc778ce"
     },
     {
       "path": "data/a4_cost_test.jsonl",

@@ -3,7 +3,7 @@
   "package": "multilingual-ticket-triage-evaluation",
   "package_type": "dataset",
   "file_count": 158,
-  "payload_bytes": 242193418,
+  "payload_bytes": 242193410,
   "forbidden_model_files_present": [
     "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1000/trainer_state.json",
     "training_traces/outputs/sft-adversarial-full-20261113/checkpoint-1500/trainer_state.json",
@@ -22,8 +22,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2319,
-      "sha256": "5cd6c1c8e0694cd7595cd65d7e1b8ca594f8845694b5900128035f606926a44a"
+      "bytes": 2311,
+      "sha256": "dd52190d432491f622a2856f16fdb2536780fc4b9cd532cb1582e14e9a026612"
     },
     {
       "path": "artifacts/evidence/.gitkeep",

@@ -14,10 +14,10 @@ Collection: `multilingual-ticket-triage-models`
 
 | Repository | Source | Current staged size | Licence/status |
 |---|---|---:|---|
-| `tiny-aya-ticket-triage-clean-diagnostic` | clean-final; failed the 95% PII gate; adapter SHA `01c4eb83…` | 263,278,006 | mixed; research/non-commercial; diagnostic/ineligible |
-| `tiny-aya-ticket-triage-robust` | selected adversarial checkpoint-1000; adapter SHA `68c3ba59…` | 263,279,437 | mixed; research/non-commercial; selected |
-| `tiny-aya-global-ticket-triage-diagnostic` | Global 50-row diagnostic; adapter SHA `e6e642ac…` | 263,277,817 | mixed; research/non-commercial; diagnostic only |
-| `tiny-aya-earth-ticket-triage-diagnostic` | Earth 50-row diagnostic; adapter SHA `9dac3104…` | 263,277,814 | mixed; research/non-commercial; diagnostic only |
+| `tiny-aya-ticket-triage-clean-diagnostic` | clean-final; failed the 95% PII gate; adapter SHA `01c4eb83…` | 263,277,984 | mixed; research/non-commercial; diagnostic/ineligible |
+| `tiny-aya-ticket-triage-robust` | selected adversarial checkpoint-1000; adapter SHA `68c3ba59…` | 263,279,415 | mixed; research/non-commercial; selected |
+| `tiny-aya-global-ticket-triage-diagnostic` | Global 50-row diagnostic; adapter SHA `e6e642ac…` | 263,277,795 | mixed; research/non-commercial; diagnostic only |
+| `tiny-aya-earth-ticket-triage-diagnostic` | Earth 50-row diagnostic; adapter SHA `9dac3104…` | 263,277,792 | mixed; research/non-commercial; diagnostic only |
 
 The upstream bases are referenced, not republished:
 
@@ -49,9 +49,9 @@ Collection: `multilingual-ticket-triage-data`
 
 | Repository | Included local material | Current bytes | Licence/status |
 |---|---|---:|---|
-| `multilingual-ticket-triage-curated` | both CuratorKIT exports, manifests, checksums, provenance, cards | 60,582,639 | mixed CC BY 4.0 / generated / CC 4.0 NC; research/non-commercial |
-| `multilingual-ticket-triage-redteam` | A1–A7 fixtures, combined training mixture, matched clean fixture, A4 cost fixture, manifest | 87,244,001 | derived carriers plus generated payloads; conservatively research/non-commercial |
-| `multilingual-ticket-triage-evaluation` | validation/test subsamples and manifests, evidence, training/evaluation traces | 242,193,418 | mixed evidence; fixtures include CC 4.0 NC rows; research/non-commercial |
+| `multilingual-ticket-triage-curated` | both CuratorKIT exports, manifests, checksums, provenance, cards | 60,582,631 | mixed CC BY 4.0 / generated / CC 4.0 NC; research/non-commercial |
+| `multilingual-ticket-triage-redteam` | A1–A7 fixtures, combined training mixture, matched clean fixture, A4 cost fixture, manifest | 87,244,000 | derived carriers plus generated payloads; conservatively research/non-commercial |
+| `multilingual-ticket-triage-evaluation` | validation/test subsamples and manifests, evidence, training/evaluation traces | 242,193,410 | mixed evidence; fixtures include CC 4.0 NC rows; research/non-commercial |
 
 Exact per-file sizes and SHA-256 values are stored outside the upload payloads
 under `publish/manifests/`. This keeps every model repository limited to its

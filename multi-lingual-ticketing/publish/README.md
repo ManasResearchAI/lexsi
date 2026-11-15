@@ -11,10 +11,10 @@ dataset below is therefore research/non-commercial.
 
 | Repository | Planned source | Size | Publish only |
 |---|---|---:|---|
-| `tiny-aya-ticket-triage-clean-diagnostic` | clean-final; failed 95% PII gate | 263,278,006 | adapter config/weights, chat template, tokenizer, diagnostic model card |
-| `tiny-aya-ticket-triage-robust` | selected adversarial checkpoint-1000 | 263,279,437 | adapter config/weights, chat template, tokenizer, model card |
-| `tiny-aya-global-ticket-triage-diagnostic` | Global 50-row adapter | 263,277,817 | same allowlist; diagnostic label |
-| `tiny-aya-earth-ticket-triage-diagnostic` | Earth 50-row adapter | 263,277,814 | same allowlist; diagnostic label |
+| `tiny-aya-ticket-triage-clean-diagnostic` | clean-final; failed 95% PII gate | 263,277,984 | adapter config/weights, chat template, tokenizer, diagnostic model card |
+| `tiny-aya-ticket-triage-robust` | selected adversarial checkpoint-1000 | 263,279,415 | adapter config/weights, chat template, tokenizer, model card |
+| `tiny-aya-global-ticket-triage-diagnostic` | Global 50-row adapter | 263,277,795 | same allowlist; diagnostic label |
+| `tiny-aya-earth-ticket-triage-diagnostic` | Earth 50-row adapter | 263,277,792 | same allowlist; diagnostic label |
 
 Allowed filenames are `adapter_config.json`,
 `adapter_model.safetensors`, `chat_template.jinja`, tokenizer files, and
@@ -26,9 +26,9 @@ logs.
 
 | Repository | Planned contents | Current size | Licence |
 |---|---|---:|---|
-| `multilingual-ticket-triage-curated` | both CuratorKIT exports, manifests, checksums, provenance | 60,582,639 | mixed; research/non-commercial |
-| `multilingual-ticket-triage-redteam` | A1–A7, combined train, matched clean, A4 fixture, manifest | 87,244,001 | derived/generated; research/non-commercial |
-| `multilingual-ticket-triage-evaluation` | main validation, English supplement, preserved test v1, final test v2, manifests, evidence, predictions, AuditKIT reports, logs/traces | 242,193,418 | mixed; research/non-commercial |
+| `multilingual-ticket-triage-curated` | both CuratorKIT exports, manifests, checksums, provenance | 60,582,631 | mixed; research/non-commercial |
+| `multilingual-ticket-triage-redteam` | A1–A7, combined train, matched clean, A4 fixture, manifest | 87,244,000 | derived/generated; research/non-commercial |
+| `multilingual-ticket-triage-evaluation` | main validation, English supplement, preserved test v1, final test v2, manifests, evidence, predictions, AuditKIT reports, logs/traces | 242,193,410 | mixed; research/non-commercial |
 
 Publish `payload_match_review.json`, not the superseded historical
 `human_review.json` filename. Raw upstream downloads and unrestricted raw

@@ -3,14 +3,14 @@
   "package": "tiny-aya-earth-ticket-triage-diagnostic",
   "package_type": "model",
   "file_count": 6,
-  "payload_bytes": 263277814,
+  "payload_bytes": 263277792,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 690,
-      "sha256": "e989e75175455743ed1e8470d87118839bcaa5467ab3f71cfa8f4773f9aa45a9"
+      "bytes": 668,
+      "sha256": "a15a3a8226239b5fb896522a5d0dc0dff600de861ba1099284067a3937263940"
     },
     {
       "path": "adapter_config.json",

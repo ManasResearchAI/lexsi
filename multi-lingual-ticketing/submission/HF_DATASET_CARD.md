@@ -1,7 +1,7 @@
 ---
 language: [yo, sw, en]
 license: other
-license_name: Mixed; includes CC 4.0 Non-Commercial
+license_name: mixed-research-non-commercial
 task_categories: [text-classification, token-classification, text-generation]
 pretty_name: Multilingual Support Triage
 ---

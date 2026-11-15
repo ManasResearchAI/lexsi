@@ -3,14 +3,14 @@
   "package": "tiny-aya-ticket-triage-clean-diagnostic",
   "package_type": "model",
   "file_count": 6,
-  "payload_bytes": 263278006,
+  "payload_bytes": 263277984,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 881,
-      "sha256": "853d4744606785945a5b56a5855d1b30c3d4f45208f7e51d41a077718321ce9f"
+      "bytes": 859,
+      "sha256": "615d0e122d401a6f846f39ed5445dd6dcd0a2a652bb74439f884b60363584be1"
     },
     {
       "path": "adapter_config.json",

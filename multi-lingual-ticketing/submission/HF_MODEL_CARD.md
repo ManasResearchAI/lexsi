@@ -4,7 +4,7 @@ library_name: peft
 language: [yo, sw, en]
 pipeline_tag: text-generation
 license: other
-license_name: Mixed; includes CC 4.0 Non-Commercial training data
+license_name: mixed-research-non-commercial
 ---
 
 # Tiny Aya Multilingual Support Triage LoRA

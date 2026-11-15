@@ -3,14 +3,14 @@
   "package": "multilingual-ticket-triage-curated",
   "package_type": "dataset",
   "file_count": 15,
-  "payload_bytes": 60582639,
+  "payload_bytes": 60582631,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 706,
-      "sha256": "5f29778cdd62232462ef77712a12239fd162563c46a1223621b051f0c521d221"
+      "bytes": 698,
+      "sha256": "57f544da379bb12b949a7769169da8479d47f6e085832486a96d2c586d3bc57a"
     },
     {
       "path": "clean/README.md",

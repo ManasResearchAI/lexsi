@@ -172,3 +172,11 @@ it does not persist tickets, assign agents, or take account actions. It shows
 the raw response beside guarded output so model behavior and serving-policy
 behavior cannot be conflated.
 
+
+## Links
+
+- Code (GitHub): https://github.com/ManasResearchAI/lexsi
+- Write-up: https://github.com/ManasResearchAI/lexsi/blob/main/multi-lingual-ticketing/submission/ARTICLE.md
+- Model collection (Hugging Face): https://huggingface.co/collections/Fill-My-Cup/multilingual-ticket-triage-models-6afa1a3b39fca752615dd8cb
+- Dataset collection (Hugging Face): https://huggingface.co/collections/Fill-My-Cup/multilingual-ticket-triage-data-6afa1a58b73d57d870f46fb0
+- Demo (Hugging Face Space): https://huggingface.co/spaces/Fill-My-Cup/multilingual-ticket-triage-demo

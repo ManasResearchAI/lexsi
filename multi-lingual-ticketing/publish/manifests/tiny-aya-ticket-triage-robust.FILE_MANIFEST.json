@@ -3,14 +3,14 @@
   "package": "tiny-aya-ticket-triage-robust",
   "package_type": "model",
   "file_count": 6,
-  "payload_bytes": 263279437,
+  "payload_bytes": 263279415,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 2312,
-      "sha256": "7abc816b69fa1caa1b6cde497b4fe1e1c26bcccc8f8d29a6c3e85bb5cd121452"
+      "bytes": 2290,
+      "sha256": "d7dc56a3a31dcdcff143b6edd2016230e36e4e99d76b88d39f22a9aed8dd986f"
     },
     {
       "path": "adapter_config.json",

@@ -3,14 +3,14 @@
   "package": "tiny-aya-global-ticket-triage-diagnostic",
   "package_type": "model",
   "file_count": 6,
-  "payload_bytes": 263277817,
+  "payload_bytes": 263277795,
   "forbidden_model_files_present": [],
   "model_allowlist_passed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 692,
-      "sha256": "1339e83673f7b91d89935c09668d5b0d9848a3a9687aea6c2b9aac726b831920"
+      "bytes": 670,
+      "sha256": "a3667f72bb32d6cb4e42788048f4ce5195a68455f87caa569d9593ecb67578ce"
     },
     {
       "path": "adapter_config.json",
